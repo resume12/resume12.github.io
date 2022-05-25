@@ -2,7 +2,7 @@
     from {opacity: 10%;
     background-color: black;}
     to {opacity: 100%;
-    background-color: blanchedalmond;}
+    background-color:#fdebc6;}
 }
   
 
@@ -113,4 +113,11 @@ body{
         height: 30%;
     }
 
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(25, 6, 68);
+        color:rgb(232, 230, 227);
+    }
 }
