@@ -1,0 +1,116 @@
+@keyframes opacity_change {
+    from {opacity: 10%;
+    background-color: black;}
+    to {opacity: 100%;
+    background-color: blanchedalmond;}
+}
+  
+
+body{
+    animation-name: opacity_change;
+    animation-duration: 3s;
+    background-color:#eeedeb;
+    color: black;
+    border-style:dashed;
+    border-color: aqua;
+    position:relative;
+
+}
+
+.title{
+    border-radius: 3em;
+    width: 15em;
+    background-color: cornflowerblue;
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    
+}
+.ptitle{
+    color: #c67000;
+    font-size: x-large;
+    text-align: left;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+}
+.pparagr{
+    margin-left: 2em;
+    margin-right: 30em;
+    font-size: large;
+    text-align: left;
+}
+
+.pparagr a{
+    text-decoration: none;
+}
+
+.pparagr img{
+    width: 10%;
+    height: 10%;
+}
+
+.pparagr a img:hover{
+    opacity: 30%;
+}
+
+.psubtitle{
+    color: cadetblue;
+    margin-left: 5em;
+    margin-right: 3em;
+    position: relative;
+    list-style:square;
+    text-align: left;
+    font-size: larger;
+}
+
+#downloads>a{
+    text-decoration: none;
+}
+
+#downloads>a>img{
+    width: 10%;
+    height: 10%;
+}
+  
+@media only screen and (max-width: 1080px) {
+
+    .title{
+        border-radius: 3em;
+        width: 15em;
+        background-color: cornflowerblue;
+        font-size: medium;
+        text-align: center;
+        position: relative;
+        left: 15%;
+        
+    }
+    .ptitle{
+        color: #c67000;
+        font-size: small;
+        margin-top: 5em;
+        margin-bottom: 5em;
+    
+    }
+    .pparagr{
+        position: relative;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: x-small;
+    }
+    
+    .psubtitle{
+        margin-left: 0%;
+        margin-right: 0%;
+        position: relative;
+        list-style:square;
+        font-size: small;
+    }
+
+    #downloads>a>img{
+        width: 30%;
+        height: 30%;
+    }
+
+}
