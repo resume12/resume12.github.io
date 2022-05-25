@@ -116,8 +116,17 @@ body{
 }
 
 @media (prefers-color-scheme: dark) {
+    @keyframes opacity_change {
+        from {opacity: 10%;}
+        to {opacity: 100%;
+        background-color: rgb(25, 6, 68);
+        }
+    }
+
+
     body {
         background-color: rgb(25, 6, 68);
         color:rgb(232, 230, 227);
     }
+    
 }
