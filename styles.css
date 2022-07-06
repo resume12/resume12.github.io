@@ -17,6 +17,21 @@ body{
 
 }
 
+.langs{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.langs>a{
+    text-decoration: none;
+}
+
+.langs>a>img{
+    width: 30%;
+    height: 30%;
+}
+
 .title{
     border-radius: 3em;
     width: 15em;
@@ -77,15 +92,16 @@ body{
 @media only screen and (max-width: 1080px) {
 
     .title{
-        border-radius: 3em;
-        width: 15em;
+        border-radius: 15em;
+        width: 40%;
         background-color: cornflowerblue;
         font-size: medium;
         text-align: center;
         position: relative;
-        left: 15%;
+        left: 25%;
         
     }
+
     .ptitle{
         color: #c67000;
         font-size: small;
@@ -113,6 +129,16 @@ body{
         height: 30%;
     }
 
+    .langs{
+            position: static;
+        }
+        
+         
+    .langs>a>img{
+        width: 10%;
+        height: 10%;
+    }
+    
 }
 
 @media (prefers-color-scheme: dark) {
