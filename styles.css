@@ -17,6 +17,17 @@ body{
 
 }
 
+
+.title{
+    border-radius: 3em;
+    width: 15em;
+    background-color: cornflowerblue;
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    left: 35%;   
+}
+
 .langs{
     position: absolute;
     right: 0%;
@@ -32,24 +43,14 @@ body{
     height: 30%;
 }
 
-.title{
-    border-radius: 3em;
-    width: 15em;
-    background-color: cornflowerblue;
-    font-size: xx-large;
-    text-align: center;
-    position: relative;
-    left: 35%;
-    
-}
 .ptitle{
     color: #c67000;
     font-size: x-large;
     text-align: left;
     margin-top: 5em;
     margin-bottom: 5em;
-
 }
+
 .pparagr{
     margin-left: 2em;
     margin-right: 30em;
