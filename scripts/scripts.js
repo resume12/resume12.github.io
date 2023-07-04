@@ -34,10 +34,11 @@ document.addEventListener('DOMContentLoaded', function () {
         var paragraphArray = Array.from(paragraphs);
 
         paragraphArray.forEach(paragraph => {
+          if(paragraph.parentElement.id!="details"){
             let newParagraph = paragraph.querySelector("p");
             newParagraph.textContent = "Πατήστε το 'ΕΠΟΜΕΝΟ' κουμπί.";
             
-            if(paragraph.parentElement.id!="details"){
+            
             var buttons_left = document.createElement("button")
             buttons_left.innerText = "PREVIOUS"
             buttons_left.className = "clickable-button"
