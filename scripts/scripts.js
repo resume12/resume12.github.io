@@ -40,12 +40,12 @@ document.addEventListener('DOMContentLoaded', function () {
             
             
             var buttons_left = document.createElement("button")
-            buttons_left.innerText = "PREVIOUS"
+            buttons_left.innerText = "ΠΡΟΗΓΟΥΜΕΝΟ"
             buttons_left.className = "clickable-button"
 
 
             var buttons_right = document.createElement("button")
-            buttons_right.innerText = "NEXT"
+            buttons_right.innerText = "ΕΠΟΜΕΝΟ"
             buttons_right.className = "clickable-button"
 
             paragraph.appendChild(buttons_left)
