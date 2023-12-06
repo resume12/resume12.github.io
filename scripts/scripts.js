@@ -1,19 +1,17 @@
-let work_exp = ['Εκπαίδευση δύο εβδομάδων ως πωλητής στο "isystem", Χολαργός', 'Υπεύθυνος διαχήρισης περιεχομένου στην ιστοσελίδα <a href = "http://efea.gr/" target = "_blank">ΕΦΕΑ</α>']
-let education = ['Τεταρτοετής φοιτητής τμήματος "Φυσικοθεραπείας" του Πανεπηστημίου Δυτικής Αττικής.', 'Πρωτοετής σπουδαστής τμήματος "Τεχνικός Εφαρμογών Πληροφορικής" του Δημόσιου Θεματικού Ι.Ε.Κ Αιγάλεω.', 'Ιδιωτικό ημερήσιο ΓΕΛ “ΑΠΟΣΤΟΛΟΣ ΠΑΥΛΟΣ” Κόρινθος. Έτος αποφοίτησης: 2019']
+let work_exp = ['Κατασκευή και συντήρηση διάφορων ιστοσελιδών μέσω wordpress']
+let education = ['Φοιτητής τμήματος "Φυσικοθεραπείας" του Πανεπηστημίου Δυτικής Αττικής.', 'Σπουδαστής τμήματος "Τεχνικός Εφαρμογών Πληροφορικής" του Δημόσιου Θεματικού Ι.Ε.Κ Αιγάλεω.', 'Ιδιωτικό ημερήσιο ΓΕΛ “ΑΠΟΣΤΟΛΟΣ ΠΑΥΛΟΣ”']
 let seminars = ["TedxUniwa Hackathon (2021)",
 "Myofascial Pain Syndrome – Dry Needling – Assessment and Treatment Organized by the Hellenic Physiotherapy Society of Algology",
     "Φυσικοθεραπεία και ποιότητα ζωής: Ανάπτυξη – Διατήρηση – Επανάκτηση (2020)",
-    "ERC qualification Basic Life Support (BLS) Provider (2023)",
-    "Opera GX gamejam (2021)",
-    "“Μηχανική Μάθηση (Machine Learning) με το MATLAB”, 2022"];
+    "ERC qualification Basic Life Support (BLS) Provider (2023)",];
 let computers = ['Microsoft windows xp, Microsoft word 2003, Microsoft excel 2003, Microsoft access 2010, Microsoft power point 2003,<br> MS internet explorer, Microsoft outlook 2010 (VELLUM diploma in IT skills).',
     'Γνώση C, C++, C#, CSS, GDScript, Go, HTML, Java, JavaScript, Kotlin, MySql, PHP, Python, R, Ruby, Swift4.',
     'Γνώση Node js, Tkinter, Beautiful soup 4',
-    'Γνώση Blender, Freecad, Gimp, Inkscape, Godot και Gamemaker studio 2',
+    'Γνώση Blender, Freecad, Gimp, Inkscape, Godot και Wordpress',
     'Γνώση arduino και raspberry pi']
 let languages = ['Αγγλικά ECPE (επίπεδο C2)', 'Γαλλικά DELF Α2 (επίπεδο A2)', 'Εσπεράντο']
 let personality = ['Εφευρετικός', 'Τελειομανής', 'Φιλομαθής']
-let interests = ['Game development', 'Κατασκευή πρότυπων ηλεκτρονικών συσκευών και αλγορίθμων', 'Επισκευή ηλεκτρονικών υπολογιστών και κινητών σε επίπεδο software και hardware', 'Πολεμικές τέχνες']
+let interests = ['Game development', 'Embedded and hardware engineering', 'Biomedical engineering', 'Electronics', 'App development']
 var mobile;
 //check if the user is from mobile
 document.addEventListener('DOMContentLoaded', function () {
@@ -163,11 +161,11 @@ function cycle(element, button) {
     scrolls[element] = 0;
   }
 
-  if (button.innerText === "PREVIOUS") {
+  if (button.innerText === "ΠΡΟΗΓΟΥΜΕΝΟ") {
     if (scrolls[element] > 0) {
       scrolls[element] -= 1;
     }
-  } else if (button.innerText === "NEXT") {
+  } else if (button.innerText === "ΕΠΟΜΕΝΟ") {
     scrolls[element] += 1;
   }
 

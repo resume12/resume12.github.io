@@ -1,28 +1,25 @@
-let work_exp = ['Two-week training as a salesperson at "isystem", Cholargos',
-'Content management responsible at the website <a href="http://efea.gr/" target="_blank">ΕΦΕΑ</a>'];
+let work_exp = ['Wordpress website developer and manager']
 
-let education = ['Fourth-year student at the "Physical Therapy" department of the University of Western Attica',
-'First-year student at the "Information Technology Applications Technician" department of the Public Thematic Institute of Vocational Training Aigaleo',
-'Private daily High School "APOSTOLOS PAVLOS", Corinth. Year of graduation: 2019'];
+let education = ['Student at the "Physical Therapy" department of the University of Western Attica',
+'Student at the "Information Technology Applications Technician" department of the Public Thematic Institute of Vocational Training Aigaleo',
+'Private daily High School "APOSTOLOS PAVLOS"'];
 
 let seminars = ["TedxUniwa Hackathon (2021)",
 "Myofascial Pain Syndrome – Dry Needling – Assessment and Treatment Organized by the Hellenic Physiotherapy Society of Algology",
 "Physical Therapy and quality of life: Development – Maintenance – Recovery (2020)",
-"ERC qualification Basic Life Support (BLS) Provider (2023)",
-"Opera GX gamejam (2021)",
-"“Machine Learning with MATLAB”, 2022"];
+"ERC qualification Basic Life Support (BLS) Provider (2023)"];
 
 let computers = ['Microsoft Windows XP, Microsoft Word 2003, Microsoft Excel 2003, Microsoft Access 2010, Microsoft PowerPoint 2003,<br> MS Internet Explorer, Microsoft Outlook 2010 (VELLUM diploma in IT skills).',
 'Knowledge of C, C++, C#, CSS, GDScript, Go, HTML, Java, JavaScript, Kotlin, MySql, PHP, Python, R, Ruby, Swift 4.',
 'Knowledge of Node.js, Tkinter, Beautiful Soup 4',
-'Knowledge of Blender, FreeCAD, GIMP, Inkscape, Godot, and GameMaker Studio 2',
+'Knowledge of Blender, FreeCAD, GIMP, Inkscape, Godot, and Wordpress',
 'Knowledge of Arduino and Raspberry Pi'];
 
 let languages = ['English ECPE (C2 level)', 'French DELF A2 (A2 level)', 'Esperanto'];
 
 let personality = ['Inventive', 'Perfectionist', 'Loves learning'];
 
-let interests = ['Game development', 'Building prototypes of electronic devices and algorithms', 'Repairing computers and mobile devices at both software and hardware level', 'Martial arts'];
+let interests = ['Game development', 'Embedded and hardware engineering', 'Biomedical engineering', 'Electronics', 'App development']
 
 var mobile;
 //check if the user is from mobile
