@@ -8,9 +8,8 @@ body{
     border: 5px 46514c  solid;
     text-align: left;
     margin: 50px;
-    
-
 }
+
 #content{
     width: 720px;
     display: grid;
@@ -34,6 +33,16 @@ body{
 }
 #pers{
     margin: 50px;
+}
+
+button{
+    border-radius: 10%;
+}
+a{
+    color: #DDE6ED;
+}
+ul{
+    list-style-type: none;
 }
 @media only screen and (max-width: 1000px) {
     body {
