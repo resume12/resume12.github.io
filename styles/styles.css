@@ -1,51 +1,149 @@
-body{
-    background-color:#27374D;
-    color: #DDE6ED;
-    font-size: large;
-}
-.pparagr{
-    color: #DDE6ED;
-    border: 5px 46514c  solid;
-    text-align: left;
-    margin: 50px;
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
-#content{
-    width: 720px;
-    display: grid;
-    place-items: center;
-}
-#CV{
-    margin: 40px;
+a {
+    color: #8768be;
+    text-decoration: none;
 }
 
-#container{
-    display: grid;
-    place-items: center;
+a:hover {
+    color: #09f7a0;
+    text-decoration: underline;
 }
-.ptitle{
-    color: #9DB2BF;
-    text-align: left;
+
+/* Container */
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
-.title{
-    color: #9DB2BF;
+
+/* Menu Buttons */
+#menu_buttons {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#menu_buttons button {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#menu_buttons button:hover {
+    background-color: #09f7a0;
+}
+
+/* Content Sections */
+#content {
+    margin: 20px 0;
+}
+
+details {
+    background-color: #1e3163;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+summary {
+    font-size: 20px;
+    font-weight: bold;
+    color: #09f7a0;
+    cursor: pointer;
+}
+
+.ptitle {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.pparagr {
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* About Me Section */
+#pers .title {
+    font-size: 28px;
+    color: #b5d8cb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#pers .paragr {
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#pers .paragr p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Contact Section */
+#contacts .title {
+    font-size: 24px;
+    color: #b5d8cb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contacts .pparagr ul {
+    list-style: none;
+    padding: 0;
     text-align: center;
 }
-#pers{
-    margin: 50px;
+
+#contacts .pparagr li {
+    margin: 10px 0;
+    font-size: 18px;
 }
 
-button{
-    border-radius: 10%;
+#contacts .pparagr li a {
+    font-size: 18px;
+    color: #7799cc;
 }
-a{
-    color: #DDE6ED;
+
+#contacts .pparagr li a:hover {
+    color: #09f7a0;
+    text-decoration: underline;
 }
-ul{
-    list-style-type: none;
+
+/* Hover Effects and Animations */
+details[open] summary {
+    color: #0d6efd;
 }
-@media only screen and (max-width: 1000px) {
-    body {
-      font-size: x-large;
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #menu_buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
-  }
+
+    #menu_buttons button {
+        width: 100%;
+    }
+}
