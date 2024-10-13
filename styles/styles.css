@@ -126,7 +126,7 @@ summary {
     text-decoration: underline;
 }
 
-/* Hover Effects and Animations */
+/* Hover effects and animations */
 details[open] summary {
     color: #0d6efd;
 }
